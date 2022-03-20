@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="nav">
+    <button>Start</button>
+    <div>
+        <label for="amount">Amount</label>
+        <input id="amount" type="range" min="10" max="200" value="50">
+    </div>
+    <div>
+        <label for="delay">Delay</label>
+        <input class="slider" id="delay" type="range" min="10" max="1000" value="250">
+    </div>
+    <button id="quicksort">Quick Sort</button>
+    <button id="bubblesort">Bubble Sort</button>
+    <button id="mergesort">Merge Sort</button>
+    <button id="insertionsort">Insertion Sort</button>
+</div>
+<div id="array">
+</div>
+<script src="createBars.js"></script>
+<script src="handleButtons.js"></script>
+</body>
+</html>
